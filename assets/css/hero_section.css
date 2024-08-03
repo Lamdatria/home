@@ -1,0 +1,26 @@
+#brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#brand img{
+    position: relative;
+    width: min(62.5vw, 250px);;
+    height: auto;
+}
+#l #r{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+#l h2{
+    color: #004F9F;
+}
+#l span{
+    color: #F9B233;
+    border-bottom: 2px solid #F9B233 ;
+}
