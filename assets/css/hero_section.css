@@ -6,7 +6,7 @@
 
 #brand img{
     position: relative;
-    width: min(62.5vw, 250px);;
+    width: min(62.5vw, 250px);
     height: auto;
 }
 #l #r{
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 100%;
+    text-wrap:balance;
 }
 #l h2{
     color: #004F9F;
@@ -23,4 +23,22 @@
 #l span{
     color: #F9B233;
     border-bottom: 2px solid #F9B233 ;
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    
+    #brand{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #l{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+
+    }
 }
