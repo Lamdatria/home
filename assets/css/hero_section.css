@@ -16,6 +16,7 @@
     align-items: center;
     width: 50%;
     height: 100%;
+    animation: fadeIn 1s;
 }
 #l h2{
     color: #004F9F;
