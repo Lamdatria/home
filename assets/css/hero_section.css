@@ -40,6 +40,9 @@
         justify-content: center;
         align-items: center;
         width: 50%;
+    }
+    #l p{
+        height: 115px;
 
     }
 }
