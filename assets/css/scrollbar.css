@@ -1,10 +1,10 @@
 ::-webkit-scrollbar {
-    width: 9px;
+    width: 5px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track:vertical {
-    background: #f9b03387; 
+    background: #f8f8f8f8; 
   }
    
   /* Handle */
